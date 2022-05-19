@@ -2,7 +2,7 @@
 var eng = {},
 	current = {},
 	fadeDur = 200,
-	titlePrefix = "BreizhHardware test start page",
+	titlePrefix = "BreizhHardware start page ",
 	
 	idxWidth = 700,
 	idxLogoFull  = [225,80],

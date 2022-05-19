@@ -69,3 +69,15 @@ eng.twitter = {
 			'Search Twitter' : ["https://github.com/search?q=%query%", false]
 		}
 	};
+
+
+/*	Google Trad
+	----------------------------------------------------- */
+
+	eng.ggtrad = {
+		pageTitle: "Google Traduction",
+		logo: "../assets/images/ggtrad.png",
+		places: {
+			'Search Twitter' : ["https://translate.google.fr/?hl=fr&sl=en&tl=fr&text=%query%", false]
+		}
+	};
