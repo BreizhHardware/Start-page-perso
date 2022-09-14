@@ -78,6 +78,6 @@ eng.twitter = {
 		pageTitle: "Google Traduction",
 		logo: "../assets/images/ggtrad.png",
 		places: {
-			'Search Twitter' : ["https://translate.google.fr/?hl=fr&sl=en&tl=fr&text=%query%", false]
+			'Search Twitter' : ["https://translate.google.fr/?hl=fr&sl=auto&tl=fr&text=%query%", false]
 		}
 	};
