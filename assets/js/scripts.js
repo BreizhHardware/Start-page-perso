@@ -358,17 +358,11 @@ function closeSugBox(src)
 		$("#sugs").html("").css({"display": "none"});
 }
 
-function applySugResult() 
+function applySugResult()
 {
 	if ($("#sugs .active").length > 0) {
-		$("#i").val($("#sugs .active a").html());
+		var url = $("#sugs .active a").attr("href");
+		window.open(url, '_blank');
 		closeSugBox(false);
 	}
 }
-
-
-
-
-
-
-
